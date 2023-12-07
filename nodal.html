@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>
+		Nodal analysis
+		</title>
+	</head>
+	<body>
+		<h1>Nodal analysis</h1><br>
+		<p>Nodal analysis is a method used in electrical engineering to analyze and solve electrical circuits. It is based on Kirchhoff's Current Law (KCL), which states that the total current entering a junction (node) in a circuit is equal to the total current leaving the junction. Nodal analysis is particularly useful for analyzing complex circuits with multiple nodes and branches.<br>
+
+Here's a step-by-step guide on how nodal analysis works:<br>
+
+<h2>Identify Nodes:</h2> Nodes are points in the circuit where two or more elements are connected. Assign a voltage variable (usually denoted by 
+ 
+ 
+V 
+x
+​
+ ) to each node. Choose a reference node (ground) and assign it a voltage of 0.<br>
+
+<h2>Apply KCL at each Node:</h2> Write Kirchhoff's Current Law equations for each non-reference node. The sum of currents entering a node is equal to the sum of currents leaving the node. Use Ohm's Law (
+ 
+=
+ 
+ 
+I= 
+R
+V
+​
+ ) to express currents in terms of voltages.<br>
+
+<h2>Express Unknown Voltages:</h2> Express unknown voltages in terms of the node voltages. You can use the differences in voltage between nodes to represent the voltage across components.<br>
+
+<h2>Write Equations: </h2>Use the KCL equations and the relationships between voltages to write a system of linear equations.<br>
+
+<h2>Solve the Equations:</h2> Solve the system of equations to find the node voltages. This can be done using various methods, such as substitution, matrices, or software tools.<br>
+
+<h2>Calculate Currents:</h2> Once you have the node voltages, you can calculate currents through the various components using Ohm's Law.
+<br>
+<p>Nodal analysis is particularly effective for circuits with multiple nodes and can simplify the process of analyzing complex circuits. It's widely used in electronic circuit design and analysis. Keep in mind that nodal analysis assumes that currents flow in and out of nodes, and it's applicable to linear circuits (where the relationship between voltage and current is linear, following Ohm's Law).</p><br>
+	<img src="nodal.png" width="50%">
+		<a href="index.html">GO BACK</a>
+	</body>
+</html>
